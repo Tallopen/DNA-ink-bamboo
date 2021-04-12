@@ -2,6 +2,8 @@
 
 This codes converts DNA sequence into ink bamboo - Chinese painting!
 
+## Guide
+
 To do this, first import zhu and cv2:
 
 ```python
@@ -42,6 +44,6 @@ The bamboo leaves are sparse, which coincide with the pandamic and millions of l
 
 This example is generated from a gene which makes the firefly glow:
 
-![figure 2]()
+![figure 2](https://github.com/Tallopen/DNA-ink-bamboo/blob/main/demo/firefly.jpg)
 
 The picture is filled with life and hope.
