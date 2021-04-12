@@ -1,6 +1,7 @@
 # DNA-ink-bamboo
 
 This codes converts DNA sequence into ink bamboo - Chinese painting!
+
 To do this, first import zhu and cv2:
 
 ```python
@@ -27,3 +28,20 @@ xuanzhi = zhu.xuan.xuanize(width=618, height=1000)
 cv2.imwrite('demo.jpg', zhu.zhu(xuanzhi, seed, seq=seq)*256)
 ```
 
+## Demo
+
+### COVID-19
+
+This is an image generated from COVID-19 genome sequence:
+
+![figure 1](https://github.com/Tallopen/DNA-ink-bamboo/blob/main/demo/covid19.jpg)
+
+The bamboo leaves are sparse, which coincide with the pandamic and millions of life lost.
+
+### Firefly fluorescent gene
+
+This example is generated from a gene which makes the firefly glow:
+
+![figure 2]()
+
+The picture is filled with life and hope.
